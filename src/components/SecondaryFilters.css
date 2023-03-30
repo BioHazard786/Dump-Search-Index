@@ -1,0 +1,11 @@
+.secondary-filters {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 23px;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
