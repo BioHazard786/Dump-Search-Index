@@ -16,9 +16,24 @@
     grid-gap: 25px 20px;
   }
 }
+
+@media (max-width: 1360px) {
+  .media-card {
+    grid-gap: 25px 20px;
+  }
+  .container {
+    margin: 0 5rem;
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 1065px) {
   .media-card {
     grid-gap: 25px 14px;
+  }
+  .container {
+    margin: 0 4rem;
+    padding: 0 1rem;
   }
 }
 @media (max-width: 1040px) {

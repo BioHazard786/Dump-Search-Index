@@ -11,7 +11,7 @@ function useFetchData(dispatch, telegram) {
     let allItems = result.items;
     while (result.last) {
       result = await index.fetch({}, { last: result.last });
-      allItems = allItems.concat(res.items);
+      allItems = allItems.concat(result.items);
     }
     allItems.sort((a, b) => {
       return a.index - b.index;
